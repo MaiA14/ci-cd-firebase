@@ -1,4 +1,4 @@
-on: [push, pull request]
+on: [push]
 jobs:
   emulator_test: 
   name: Run all tests using Firebase Emulator Suite
