@@ -1,6 +1,8 @@
 const assert = require('assert');
 const firebase = require('@firebase/testing');
 
+
+// FIREBASE
 const MY_PROJECT_ID = "test-ci-cd-8e4bf";
 const myId = "user_abc";
 const theirId = "user_xyz";
@@ -14,6 +16,8 @@ beforeEach(async () => {
     await firebase.clearFirestoreData({ projectId: MY_PROJECT_ID });
 })
 
+
+// TESTS
 describe("My app", () => {
     it("Understand basic addition", () => {
         assert.equal(2 + 2, 4);
