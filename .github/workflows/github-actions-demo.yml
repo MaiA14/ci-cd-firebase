@@ -9,6 +9,6 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Run all the tests
-        working-directory: test
-        run: 'firebase emulators:start'
-        run: 'npm test'
+      working-directory: test
+      run: 'firebase emulators:start'
+      run: 'npm test'
